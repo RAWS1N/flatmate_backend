@@ -2,3 +2,4 @@
 .env
 /drizzle
 /*.yaml
+/dist

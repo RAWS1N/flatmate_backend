@@ -1,6 +1,5 @@
 import { sql } from "drizzle-orm";
-import { boolean } from "drizzle-orm/gel-core";
-import { pgTable,uuid,text,timestamp, uniqueIndex } from "drizzle-orm/pg-core";
+import { pgTable,uuid,text,timestamp, uniqueIndex,boolean } from "drizzle-orm/pg-core";
 
 
 export const users = pgTable('users',{
